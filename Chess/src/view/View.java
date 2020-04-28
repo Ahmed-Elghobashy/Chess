@@ -9,7 +9,7 @@ public class View extends JFrame
 
 	public View()
 	{
-		this.setSize(1200,1200);
+		this.setSize(722,740);
 		this.setVisible(true);
 		boardPanel= new BoardPanel();		
 		this.getContentPane().add(boardPanel);

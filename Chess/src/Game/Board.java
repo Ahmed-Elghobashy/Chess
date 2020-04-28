@@ -181,7 +181,7 @@ public class Board implements GameValidator,PlayerListener
 		{
 			if(diffrenceX==1 && diffrenceY==0)
 			{
-				if(board[piece.getPositionX()+diffrenceX][piece.getPositionY()]==null)
+				if(board[piece.getPositionX()+realDiffrenceX][piece.getPositionY()]==null)
 					return true;
 				else 
 					return false;
